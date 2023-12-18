@@ -22,7 +22,7 @@ A _flow_ is a directed graph of node types representing a possible trajectory.  
 An _ensemble_ is the set of nodes involved in a generation.
 
 ## Learning
-When generations end, final context amd terminal-node specific data are provided to a loss function, which may also acquire and use external data.  The loss function incorporates data from all final nodes in a generation.  Based on the loss, parameters in the ensemble are updated.
+When generations end, final context amd terminal-node specific data are provided to a loss function, which may also acquire and use external data.  The loss function incorporates data from all final nodes in an ensemble.  Based on the loss, parameters in all nodes in the ensemble may be updated.
 
 
 
