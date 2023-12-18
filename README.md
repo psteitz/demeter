@@ -1,4 +1,4 @@
-# demeter
+# Demeter
 Collaborative learning network
 
 ## Definitions
